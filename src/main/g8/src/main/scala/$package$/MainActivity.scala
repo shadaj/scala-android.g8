@@ -1,6 +1,6 @@
 package $package$
 
-import $package$.R;
+import $package$.R
 
 import android.app.Activity
 import android.os.Bundle

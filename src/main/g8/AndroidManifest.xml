@@ -8,7 +8,7 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="McDonald Ad" >
+        android:label="$name$" >
         <activity
             android:name=".$mainactivity$"
             android:label="$name$" >

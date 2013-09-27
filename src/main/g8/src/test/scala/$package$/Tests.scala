@@ -1,5 +1,0 @@
-package $package$
-
-class Tests {
-	
-}

@@ -1,7 +1,5 @@
 package $package$
 
-import $package$.R
-
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
@@ -11,8 +9,7 @@ import android.view.View
 import scala.List
 
 class MainActivity extends Activity {
-  var items = List[String]("bob")
-  
+  var items = List[String]()
   
   lazy val itemsDisplay = findViewById(R.id.items).asInstanceOf[TextView]
   lazy val input = findViewById(R.id.input).asInstanceOf[EditText]

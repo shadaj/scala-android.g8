@@ -25,9 +25,7 @@ class MainActivity extends Activity {
   
   def addItem(view: View) {
     val itemToAdd = input.getText.toString
-    
     items = items :+ itemToAdd
-    
     refreshItemsDisplay
   }
 }

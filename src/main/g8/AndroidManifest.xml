@@ -8,10 +8,10 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="$name$" >
+        android:label="$name;format="camel"$" >
         <activity
             android:name=".$mainactivity$"
-            android:label="$name$" >
+            android:label="$name;format="camel"$" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -5,7 +5,7 @@ import AndroidKeys._
 
 object General {
   val settings = Defaults.defaultSettings ++ Seq (
-    name := "$name$",
+    name := "$name;format="camel"$",
     version := "$version$",
     versionCode := 0,
     scalaVersion := "2.10.0",
@@ -32,7 +32,7 @@ object General {
 
 object AndroidBuild extends Build {
   lazy val main = Project (
-    "$name;format="hyphen"$",
+    "$name;format="camel"$",
     file("."),
     settings = General.fullAndroidSettings
   )
